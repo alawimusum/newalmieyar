@@ -65,9 +65,7 @@ nav.main-nav {
   display: flex;
   align-items: center;
   gap: 36px;
-  direction: ltr; /* LTR flow: 'الرئيسية' on far left, then 'من نحن', 'خدماتنا', 'المساعدة', 'لوغو' */
-  margin-right: auto; /* Pushes navigation block to far left of page header */
-  margin-left: 0;
+  direction: rtl; /* RTL flow */
 }
 
 nav.main-nav a {
@@ -338,10 +336,9 @@ footer.site-footer {
 }
 
 .kuwait-map-icon {
-  width: 55px;
+  width: 80px;
   height: auto;
   display: block;
-  mix-blend-mode: multiply;
 }
 
 .copyright-text {
@@ -351,14 +348,13 @@ footer.site-footer {
   font-weight: 500;
 }
 
-/* 3. Social & Email Column (Renders on FAR LEFT in RTL) */
 .footer-col-social {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  align-items: flex-start; /* flex-start in LTR aligns items to the LEFT */
-  text-align: left;
-  direction: ltr; /* Forces LTR so icons are on the left, text on the right */
+  align-items: flex-start; /* flex-start in RTL aligns items to the RIGHT */
+  text-align: right;
+  direction: rtl; /* Forces RTL so icons are on the right, text on the left */
 }
 
 .social-row, .email-row {
