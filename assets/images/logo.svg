@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 420" width="100%" height="100%">
+  <defs>
+    <style>
+      .st-palm { fill: #486E38; }
+      .st-trunk { fill: #8A6440; }
+      .st-roof { fill: #5D503C; }
+      .st-window { fill: #FAF8F5; }
+      .st-swoosh { fill: none; stroke: #E67A3D; stroke-width: 14; stroke-linecap: round; }
+      .st-title-ar { font-family: 'Almarai', 'Tajawal', sans-serif; font-size: 32px; font-weight: 800; fill: #4A3A2A; text-anchor: middle; }
+      .st-title-en { font-family: 'Almarai', 'Tajawal', sans-serif; font-size: 22px; font-weight: 700; fill: #4A3A2A; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <!-- Palm Tree 1 (Right/Back) -->
+  <g transform="translate(380, 50)">
+    <!-- Trunk -->
+    <path d="M 0,160 Q 20,80 35,0 L 45,3 Q 30,83 10,160 Z" class="st-trunk"/>
+    <!-- Leaves -->
+    <path d="M 35,0 Q 60,-30 85,-10 Q 55,10 35,0 Z" class="st-palm"/>
+    <path d="M 35,0 Q 80,0 95,30 Q 60,30 35,0 Z" class="st-palm"/>
+    <path d="M 35,0 Q 10,-35 -20,-30 Q 0,0 35,0 Z" class="st-palm"/>
+    <path d="M 35,0 Q -10,-40 -40,-15 Q -10,10 35,0 Z" class="st-palm"/>
+    <path d="M 35,0 Q 40,-50 25,-70 Q 10,-35 35,0 Z" class="st-palm"/>
+  </g>
+
+  <!-- Palm Tree 2 (Left/Front) -->
+  <g transform="translate(310, 20)">
+    <!-- Trunk -->
+    <path d="M 0,200 Q 25,100 45,0 L 57,4 Q 37,104 12,200 Z" class="st-trunk"/>
+    <!-- Leaves -->
+    <path d="M 45,0 Q 75,-35 110,-10 Q 70,15 45,0 Z" class="st-palm"/>
+    <path d="M 45,0 Q 95,5 115,45 Q 75,40 45,0 Z" class="st-palm"/>
+    <path d="M 45,0 Q 15,-45 -25,-40 Q 5,0 45,0 Z" class="st-palm"/>
+    <path d="M 45,0 Q -15,-50 -55,-20 Q -15,15 45,0 Z" class="st-palm"/>
+    <path d="M 45,0 Q 50,-65 30,-90 Q 15,-45 45,0 Z" class="st-palm"/>
+  </g>
+
+  <!-- House Roof & Wall -->
+  <g transform="translate(200, 160)">
+    <!-- Roof Silhouette -->
+    <path d="M 110,0 L 220,100 L 220,115 L 110,25 L 0,115 L 0,100 Z" fill="#5D503C"/>
+    <path d="M 110,20 L 210,108 L 10,108 Z" fill="#5D503C"/>
+    <!-- 4-Pane Window -->
+    <g transform="translate(93, 48)">
+      <rect x="0" y="0" width="14" height="14" fill="#5D503C"/>
+      <rect x="18" y="0" width="14" height="14" fill="#5D503C"/>
+      <rect x="0" y="18" width="14" height="14" fill="#5D503C"/>
+      <rect x="18" y="18" width="14" height="14" fill="#5D503C"/>
+    </g>
+  </g>
+
+  <!-- Terracotta Orange Curved Swoosh -->
+  <path d="M 185,270 C 230,360 410,380 440,240 C 455,170 380,100 320,105" class="st-swoosh"/>
+
+  <!-- Typography -->
+  <text x="250" y="325" class="st-title-ar">مؤسسة المعيار العقارية</text>
+  <text x="250" y="360" class="st-title-en">Almieyar Real Estate Est</text>
+</svg>
